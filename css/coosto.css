@@ -1,3 +1,30 @@
 
+body {
+	background-color: white;
+}
 
+#zone-header {
+}
+#zone-header h1 {
+}
+#zone-header p {
+}
 
+#zone-usp {
+}
+#zone-usp .one-usp {
+}
+#zone-usp .one-usp img {
+}
+#zone-usp .one-usp h3 {
+}
+#zone-usp .one-usp p {
+}
+
+#zone-contact {
+	background-image: url("assets/background.jpg");
+}
+#zone-contact h2 {
+}
+#zone-contact p {
+}
