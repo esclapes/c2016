@@ -1,0 +1,21 @@
+# Instructions
+
+* Create the HTML and CSS necessary for the responsive design shown in the files narrow.png and wide.png. You will find the necessary images in the assets folder.
+* The input names for the form are: first_name, last_name, email, phone, company, comments.
+* Include a hidden field named time with the time of submission.
+* All fields except comments are required. Use html 5 validations. No need for JS validation or custom errors.
+* Submit the form via Ajax POST request to https://api.formbucket.com/f/mh9tkq7 (you can create a formbucket while developing to check the result)
+* After a successful submission, hide the form and show a "Thanks!" message in its place.
+* Use the tools that you are most comfortable with.
+* Keep a git history of the steps that you follow and share it with me through GitHub when done.
+
+# Design info
+
+* These are the colors:
+  * $coosto-blue: #00A8ED; // Used on headings
+  * $coosto-orange: #FF7311; // Used on button
+  * $coosto-dark-blue: #002649; // Used on text
+* The background image has a translucid overlay applied on top with value rgba($coosto-dark-blue, 0.5)
+* Font: you can use PT Sans from Google Fonts https://fonts.google.com/specimen/PT+Sans
+* No need to do it pixel perfect. Font sizes and such are not relevant for this assignment.
+
