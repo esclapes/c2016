@@ -82,6 +82,24 @@ body {
 #zone-contact-wrap p {
 }
 #zone-contact-wrap form {
+	width: 300px;
 }
-#zone-contact-wrap input {
+#zone-contact-wrap form .form-row {
+}
+#zone-contact-wrap form .form-row-left {
+	width: 45%;
+	float: left;
+}
+#zone-contact-wrap form .form-row-right {
+	width: 45%;
+	float: right;
+}
+#zone-contact-wrap form input {
+	width: 100%;
+}
+#zone-contact-wrap form textarea {
+	width: 100%;
+}
+#zone-contact-wrap form input[type=submit] {
+	width: 80%;
 }
