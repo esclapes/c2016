@@ -7,7 +7,7 @@ body {
 	--coosto-dark-blue: #002649;	// Used on text
 }
 
-//==========
+/*==========*/
 
 #zone-header {
 	text-align: center;
@@ -25,20 +25,23 @@ body {
 }
 #zone-header-wrap p {
 	font-size: 13px;
-	// letter-spacing: 0.5px;
+	ZZZletter-spacing: 0.5px;
 }
 
-//==========
+/*==========*/
 
 #zone-usp {
 	text-align: center;
 	width: 100%;
 }
 #zone-usp-wrap {
-	margin: 50px 0 0 0;
+	width: 720px;
+	margin: 50px auto 0 auto;
 	color: var(--coosto-dark-blue);
+	overflow: auto;  /* clearfix */
 }
 #zone-usp-wrap .one-usp {
+	float: left;
 	width: 200px;
 	margin: 0 20px 0 20px;
 	padding: 50px 0 0 0;
@@ -58,23 +61,26 @@ body {
 #zone-usp-wrap .one-usp p {
 	font-size: 11px;
 	line-height: 20px;
-	//letter-spacing: 0.5px;
+	ZZZletter-spacing: 0.5px;
 }
 
-//==========
+/*==========*/
 
 #zone-contact {
+	margin: 50px 0 0 0;
 	width: 100%;
-	// linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
-	background-image: url('assets/background.jpg');
+	ZZZlinear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+	background-image: url('../assets/background.jpg');
 	background-color: var(--coosto-dark-blue);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	ZZZbackground-attachment: fixed;
 	background-position: left top;
 	text-align: center;
-	clear: both;
+	ZZZclear: both;
 }
 #zone-contact-wrap {
+	margin: 50px auto 0 auto;
+	width: 320px;
 	color: white;
 }
 #zone-contact-wrap h3 {

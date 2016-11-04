@@ -1,11 +1,11 @@
-<html>
+﻿<html>
 <head>
 
 <title>Start vandaag nog met AppCare</title>
 
 <!-- meta description -->
 
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans">
+<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans">-->
 <link rel="stylesheet" type="text/css" href="css/coosto.css">
 
 </head>
