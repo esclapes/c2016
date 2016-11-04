@@ -3,10 +3,12 @@
 
 <title>Start vandaag nog met AppCare</title>
 
-<!-- meta description -->
+<meta name=”description” content=”Webcare via WhatsApp. Berichten automatisch naar de juiste afdeling sturen. Meten hoeveel klanten je helpt.” />
 
-<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans">-->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
 <link rel="stylesheet" type="text/css" href="css/coosto.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
 <body>
@@ -77,11 +79,14 @@
 				<div class="form-row">
 					<button type="submit">Plan een gratis demonstratie</button>
 				</div>
-				<input type="hidden" name="time" value="<?php echo date("G:i"); ?>" />
+				<input type="hidden" name="time" value="<?php echo date('G:i'); ?>" />
+				<p class="footnote">
+					Met het versturen van dit formulier sta je toe dat wij je gerelateerde e-mails sturen.
+				</p>
 			</form>
-			<p class="footnote">
-				Met het versturen van dit formulier sta je toe dat wij je gerelateerde e-mails sturen.
-			</p>
+			<div id="form-completed">
+				Bedankt voor uw aanvraag. U krijgt spoedig reactie.
+			</div>
 		</div>
 	</div>
 </div>
