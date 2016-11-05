@@ -57,7 +57,7 @@
 			<p>
 				Laat dan hier je gegevens achter en we nemen z.s.m. contact met je op!
 			</p>
-			<form method="post" name="coosto" id="zone-contact-form" action="https://api.formbucket.com/f/buk_Vhno2F2Te8YnW2TzfCkVBGqH">
+			<form method="post" name="coosto" id="zone-contact-form" action="https://api.formbucket.com/f/mh9tkq7">
 				<div class="form-row">
 					<div class="form-row-left">
 						<input type="text" name="first_name" placeholder="Voornaam" required />
@@ -74,7 +74,7 @@
 						<input type="email" name="email" placeholder="Zakelijk e-mail" required />
 					</div>
 					<div class="form-row-right">
-						<input type="text" name="text" placeholder="Telefoonnummer" required />
+						<input type="text" name="phone" placeholder="Telefoonnummer" required />
 					</div>
 				</div>
 				<div class="form-row">

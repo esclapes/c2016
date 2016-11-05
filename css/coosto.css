@@ -24,11 +24,12 @@ body {
 }
 #zone-header-wrap h1 {
 	color: var(--coosto-blue);
-	font-size: 18px;
+	font-size: 21px;
 	letter-spacing: 0.5px;
+	margin: 0 0 10px 0;
 }
 #zone-header-wrap p {
-	font-size: 13px;
+	font-size: 15px;
 }
 
 /*==================================================*/
@@ -40,6 +41,7 @@ body {
 #zone-usp-wrap {
 	width: 720px;
 	margin: 50px auto 0 auto;
+	padding: 0 0 30px 0;
 	color: var(--coosto-dark-blue);
 	overflow: auto;  /* clearfix */
 }
@@ -66,11 +68,11 @@ body {
 #zone-usp-wrap .one-usp h2 {
 	margin: 30px 0 20px 0;
 	color: var(--coosto-blue);
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: 0.5px;
 }
 #zone-usp-wrap .one-usp p {
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 20px;
 }
 
@@ -130,28 +132,28 @@ body {
 #zone-contact-wrap form input {
 	width: 100%;
 	padding: 5px;
+	font-size: 13px;
 }
 #zone-contact-wrap form textarea {
 	width: 100%;
 	padding: 5px;
 	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
 }
 #zone-contact-wrap form button[type=submit] {
 	width: 90%;
 	padding: 10px 10px 10px 10px;
 	background-color: var(--coosto-orange);
 	color: white;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
+	letter-spacing: 0.5px;
 }
 #zone-contact-wrap p.footnote {
 	padding: 25px 0 0 0;
 	font-size: 14px;
 }
-#form-success {
-	display: none;
-	padding: 100px 0 50px 0;
-	color: var(--coosto-orange);
-}
+#form-success,
 #form-error {
 	display: none;
 	padding: 100px 0 50px 0;
