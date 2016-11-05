@@ -1,14 +1,18 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html lang="nl">
 <head>
 
 <title>Start vandaag nog met AppCare</title>
 
-<meta name=”description” content=”Webcare via WhatsApp. Berichten automatisch naar de juiste afdeling sturen. Meten hoeveel klanten je helpt.” />
+<meta charset="UTF-8">
+<meta name="description" content="Webcare via WhatsApp. Berichten automatisch naar de juiste afdeling sturen. Meten hoeveel klanten je helpt.">
+<meta property="og:description" content="Webcare via WhatsApp. Berichten automatisch naar de juiste afdeling sturen. Meten hoeveel klanten je helpt.">
 
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
 <link rel="stylesheet" type="text/css" href="css/coosto.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/form.js"></script>
 
 </head>
 <body>
@@ -25,21 +29,21 @@
 	<div id="zone-usp">
 		<div id="zone-usp-wrap">
 			<div class="one-usp">
-				<img src="assets/whatsapp.png" />
+				<img src="assets/whatsapp.png" alt="" />
 				<h2>Geïntegreerde oplossing</h2>
 				<p>
 					Integreer WhatsApp met een webcaretool voor een optimale klantbeleving.
 				</p>
 			</div>
 			<div class="one-usp">
-				<img src="assets/messages.png" />
+				<img src="assets/messages.png" alt="" />
 				<h2>Betere service</h2>
 				<p>
 					Berichten worden automatisch aan de juiste contactpersoon of afdeling toegewezen en overzichtelijk gesorteerd.
 				</p>
 			</div>
 			<div class="one-usp">
-				<img src="assets/kpis.png" />
+				<img src="assets/kpis.png" alt="" />
 				<h2>Meet je KPI's</h2>
 				<p>
 					Meet dagelijks hoeveel klanten je daadwerkelijk helpt door gebruik te maken van de unieke client case structuur.
@@ -70,11 +74,11 @@
 						<input type="email" name="email" placeholder="Zakelijk e-mail" required />
 					</div>
 					<div class="form-row-right">
-						<input type="phone" name="phone" placeholder="Telefoonnummer" required />
+						<input type="text" name="text" placeholder="Telefoonnummer" required />
 					</div>
 				</div>
 				<div class="form-row">
-					<textarea id="comments" placeholder="Bericht (optioneel)" rows="5" cols="50"></textarea>
+					<textarea name="comments" placeholder="Bericht (optioneel)" rows="5" cols="50"></textarea>
 				</div>
 				<div class="form-row">
 					<button type="submit">Plan een gratis demonstratie</button>
@@ -84,8 +88,11 @@
 					Met het versturen van dit formulier sta je toe dat wij je gerelateerde e-mails sturen.
 				</p>
 			</form>
-			<div id="form-completed">
-				Bedankt voor uw aanvraag. U krijgt spoedig reactie.
+			<div id="form-success">
+				Bedankt voor je aanvraag!
+			</div>
+			<div id="form-error">
+				Er gaat even iets mis. Probeer het nog een keer, of neem telefonisch contact met ons op.
 			</div>
 		</div>
 	</div>

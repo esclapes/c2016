@@ -90,7 +90,7 @@ body {
 	text-align: center;
 }
 #zone-contact-wrap {
-	padding: 50px 0 25px 0;
+	padding: 50px 0 100px 0;
 	color: white;
 }
 #zone-contact-wrap h3 {
@@ -110,7 +110,7 @@ body {
 	width: 45%;
 	float: left;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 	#zone-contact-wrap form .form-row-left {
 		width: 100%;
 		float: none;
@@ -120,7 +120,7 @@ body {
 	width: 45%;
 	float: right;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 	#zone-contact-wrap form .form-row-right {
 		width: 100%;
 		float: none;
@@ -147,6 +147,13 @@ body {
 	padding: 25px 0 0 0;
 	font-size: 14px;
 }
-#zone-contact-wrap #form-completed {
+#form-success {
 	display: none;
+	padding: 100px 0 50px 0;
+	color: var(--coosto-orange);
+}
+#form-error {
+	display: none;
+	padding: 100px 0 50px 0;
+	color: var(--coosto-orange);
 }
